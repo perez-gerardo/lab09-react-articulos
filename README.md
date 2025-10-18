@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Lab09 - ReactJS con Bootstrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Descripción
+Aplicación ReactJS que implementa una tabla de gestión de artículos con diseño Bootstrap. Permite visualizar, agregar y eliminar artículos de forma dinámica.
 
-## Available Scripts
+## 🚀 Características
+- **Tabla responsiva** con Bootstrap
+- **Eliminación dinámica** de artículos
+- **Diseño moderno** con estilos Bootstrap
+- **Componente de clase** React
+- **Estado reactivo** con `this.state` y `this.setState`
 
-In the project directory, you can run:
+## 🛠️ Tecnologías Utilizadas
+- ReactJS
+- Bootstrap 5
+- JavaScript ES6+
+- HTML5/CSS3
 
-### `npm start`
+## 📦 Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona el repositorio:
+```bash
+git clone https://github.com/perez-gerardo/lab09-react-articulos.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-### `npm test`
+3. Ejecuta la aplicación:
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Abre tu navegador en `http://localhost:3000`
 
-### `npm run build`
+## 🎯 Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Gestión de Artículos
+- **Visualización**: Tabla con código, descripción y precio
+- **Eliminación**: Botón "Borrar" para cada artículo
+- **Diseño**: Tabla responsiva con estilos Bootstrap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Artículos Incluidos
+- Coca-cola - $2.50
+- Inka-cola - $2.20  
+- Fanta - $1.70
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📱 Diseño Bootstrap
+- **Tabla responsiva**: Se adapta a dispositivos móviles
+- **Estilos modernos**: `table-striped`, `table-hover`, `table-bordered`
+- **Encabezado oscuro**: `table-dark` para mejor contraste
+- **Botones estilizados**: `btn-danger` para eliminar
 
-### `npm run eject`
+## 🎥 Video Explicativo
+Este proyecto incluye un video explicativo de máximo 4 minutos que demuestra:
+- Explicación del código
+- Funcionamiento de la aplicación
+- Demostración de eliminación de artículos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Capturas
+- Capturas del código fuente
+- Capturas de la ejecución en navegador
+- Demostración de funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👨‍💻 Autor
+**Agustín** - Estudiante de Desarrollo de Aplicaciones Empresariales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📚 Laboratorio
+**Lab09 - ReactJS**  
+**Docente**: Renato Usnayo Cáceres  
+**Institución**: Tecsup
