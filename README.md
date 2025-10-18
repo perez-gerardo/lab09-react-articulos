@@ -71,3 +71,17 @@ Este proyecto incluye un video explicativo de máximo 4 minutos que demuestra:
 **Lab09 - ReactJS**  
 **Docente**: Renato Usnayo Cáceres  
 **Institución**: Tecsup
+
+## 📝 OBSERVACIONES
+- **Instalación inicial**: La creación del proyecto ReactJS con `create-react-app` requirió varios intentos debido a problemas de permisos en Windows.
+- **Integración Bootstrap**: La instalación de Bootstrap fue exitosa y su integración en el proyecto fue sencilla mediante `import 'bootstrap/dist/css/bootstrap.min.css'`.
+- **Conversión de función a clase**: Se tuvo que convertir el componente funcional por defecto a un componente de clase para implementar el estado y los métodos requeridos.
+- **Gestión de estado**: La implementación del método `borrar()` funcionó correctamente usando `filter()` para mantener la inmutabilidad del estado.
+- **Diseño responsivo**: Bootstrap facilitó la creación de una tabla responsiva que se adapta a diferentes tamaños de pantalla.
+
+## 🎯 CONCLUSIONES
+- **Objetivo cumplido**: Se logró implementar exitosamente una aplicación ReactJS con gestión de artículos y diseño Bootstrap profesional.
+- **Aprendizaje técnico**: Se dominó el uso de componentes de clase, gestión de estado con `this.state` y `this.setState`, y la integración de Bootstrap en React.
+- **Resolución de problemas**: Los errores de instalación se solucionaron creando un nuevo proyecto con nombre diferente y verificando el directorio de trabajo.
+- **Resultado final**: La aplicación cumple con todos los requisitos del laboratorio, incluyendo tabla responsiva, eliminación dinámica y diseño moderno con Bootstrap.
+- **Valor agregado**: El README documentado y el repositorio en GitHub facilitan la presentación y futuras referencias del proyecto.
